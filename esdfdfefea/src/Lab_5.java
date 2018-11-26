@@ -14,7 +14,7 @@ public class Lab_5 {
             int e = k;
             while (e < m) {
                 sum += e % 10;
-                e /= (double) 10;
+                e /= 10;
                 if (e < 1) {
                     break;
                 }
