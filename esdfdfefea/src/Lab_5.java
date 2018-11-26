@@ -12,12 +12,9 @@ public class Lab_5 {
         for (int k = 1; k < m; k++) {
             double sum = 0;
             int e = k;
-            while (e < m) {
+            while (e >=1) {
                 sum += e % 10;
                 e /= 10;
-                if (e < 1) {
-                    break;
-                }
             } if (sum == n) {
                 System.out.println(k);
             }
