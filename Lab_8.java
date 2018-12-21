@@ -78,9 +78,9 @@ public class Lab_81 {
         ArrayList<ArrayList<Integer>> matrix = new ArrayList<>();
         System.out.println("Lets print matrix in the simple way");
         ArrayList<Integer> row = new ArrayList<>();
-        int s = -4;
+        int s = -d;
         for (int i = 1; i <= d; i++) {
-            s = s + 4;
+            s = s + d;
             matrix.add(row);
             for (int j = 1; j <= d; j++) {
                 row.add(j+s);
